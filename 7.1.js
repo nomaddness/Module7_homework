@@ -17,3 +17,15 @@ function showOwnProp(obj) {
 	}
 }
 showOwnProp(student);
+
+//Я в начале решил так
+//const student = Object.create(education)
+// student.name = 'Alex',
+// student.age = 40
+
+//   for (let key in student) {
+//     if (student.hasOwnProperty(key))
+//       console.log(key)
+// }
+
+// console.log(student)
